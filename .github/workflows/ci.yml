@@ -20,7 +20,7 @@ jobs:
       - name: install rust toolchain
         uses: hecrj/setup-rust-action@v1
         with:
-          rust-version: stable
+          rust-version: "1.70.0"
 
       - name: test leaf
         run: cargo test -p leaf
